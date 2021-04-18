@@ -1,0 +1,287 @@
+body {
+  margin: 0 auto;
+  max-height: 100vh;
+  padding-top: 4rem;
+  max-width: 1600px;
+}
+
+nav img{
+    width: 15%;
+    height: 15%;
+  
+}
+
+nav{
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+  background-color: #0b0c10;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+.navbar-toggler {
+  border-color: #66fcf1
+} 
+
+
+
+.navbar li a {
+    color: #ffffff;
+    font-size: 22px;
+    
+  }
+
+  .navbar .active a{
+    color: #66fcf1;
+  }
+  .navbar li{
+    padding-right: 8%;
+    margin-left: 5%;
+  }
+
+  .navbar li a:hover {
+    color: #66fcf1;
+    
+  }
+
+
+
+  .bg-img img{
+    height: 600px;
+    margin-top: 0%;
+    margin-bottom: 1rem;
+    width: 100vw;
+
+  }
+
+
+  .carousel-caption {
+    bottom: 15rem;
+    text-align: left;
+    
+  }
+
+
+  .carousel-caption .hello{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+
+  .carousel-caption h1{
+    
+    color: #66fcf1;
+  }
+
+  .carousel-caption h2{
+    color: #ffffff;
+  }
+
+  .carousel-caption .higlight{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+
+  .carousel-caption button{
+    color: #1f2833;
+    background-color: #66fcf1;
+  }
+
+  .carousel-caption button:hover{
+    color: #ffffff;
+    background-color: #45a29e;
+    
+  }
+
+  footer{
+    background-color: #1f2833;
+    color: #c5c6c7;
+  }
+
+  footer .higlight{
+    color: #66fcf1;
+    text-transform: uppercase;
+  }
+
+
+  /*---------------------------------------End home page------------------------------------------------*/
+  
+  #project_page .head h1{
+    color: #7be9e3;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+  }
+
+  #project_page p{
+    font-size: 20px;
+  }
+
+
+  .projects_image img{
+    box-shadow: 0 0 5px  rgba(94, 90, 90, 0.7);
+    height: 300px;
+    width: 500px;
+    border-radius: 10%;
+    border: 2px solid #66fcf1;
+  }
+
+
+  .projects_image p a{
+    
+    color: #1f2833;
+    background-color: #66fcf1;
+    border: 1px solid #0b0c10;
+  }
+
+  .projects_image p a:hover{
+    color: #ffffff;
+    background-color: #45a29e;
+  }
+  
+  #project_page{
+    margin-bottom: 10rem;
+  }
+
+  /*---------------------------------------End project page------------------------------------------------*/
+
+  #about_page .head h1{
+    color: #7be9e3;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+  }
+
+
+  #about_page h2{
+    font-size: 2rem;
+    font-style: italic;
+    color: #24bbb1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  #about_page h3{
+    color: #fd3b7c;
+  }
+
+  #about_page h4{
+    color: #24bbb1;
+  }
+  .profile{
+    margin-bottom: 1rem;
+  }
+
+  #about_page .profile img{
+    box-shadow: 0 0 5px  rgba(107, 112, 112, 0.7);
+    height: 250px;
+    width: 250px;
+  }
+
+
+  #about_page .intro_para p{
+    font-size: 22px;
+  }
+
+  #about_page #fancy{
+    color: #45a29e;
+    font-size: 30px;
+  }
+
+
+  /*---------------------------------------End about page------------------------------------------------*/
+
+  #contact_page .head h1{
+    color: #7be9e3;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+  }
+  #contact_page .head p{
+    font-size: 22px;
+    text-align: center;
+
+  }
+
+
+
+  #contact_page h2{
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    color: #45a29e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  #contact_page form{
+    width: 80%;
+    
+  }
+ 
+  #contact_page  label{
+    font-weight: bold;
+    color: #24bbb1;
+    text-align: left !important;
+    justify-content: left !important;
+  }
+
+  #contact_page form button{
+    border: 1px solid #0b0c10;
+    color: #1f2833;
+    background-color: #66fcf1;
+  }
+
+  #contact_page form button:hover{
+    color: #ffffff;
+    background-color: #45a29e;
+    
+  }
+
+  #contact_page form sup{
+    color: #fd3b7c;
+  }
+
+  /*---------------------------------------End contact page------------------------------------------------*/
+
+
+
+
+/*---------------------------------------Media Query------------------------------------------------*/
+  
+  @media screen and (min-width: 800px) {
+    #contact_page .container form{
+      width: auto;
+      align-items: center;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+  }
+  @media screen and (max-width: 800px) {
+    body{
+      padding-top: 3rem;
+    }
+    .carousel-caption {
+      bottom: 12rem;
+    }
+
+    #contact_page form{
+      width: auto;
+    }
+  
+    
+  }
